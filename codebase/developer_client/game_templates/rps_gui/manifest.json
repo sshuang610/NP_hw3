@@ -1,0 +1,11 @@
+{
+  "name": "{{GAME_NAME}}",
+  "version": "0.1.0",
+  "minPlayers": 2,
+  "maxPlayers": 8,
+  "clientMode": "gui",
+  "clientEntrypoint": "python client.py",
+  "serverEntrypoint": "python server.py",
+  "description": "Rock-Paper-Scissors: Choose ✊Rock, 🖐️Paper, or ✌️Scissors within the time limit. Rock beats Scissors, Scissors beats Paper, Paper beats Rock. Play 5 rounds against 2-8 players. Highest score wins!",
+  "changelog": "Initial release of RPS GUI template for multi-player support"
+}

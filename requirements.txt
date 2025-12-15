@@ -1,0 +1,1 @@
+# Only standard library modules are required (Tkinter, sqlite3, socket, etc.)

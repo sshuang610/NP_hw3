@@ -1,0 +1,11 @@
+{
+  "name": "{{GAME_NAME}}",
+  "version": "0.1.0",
+  "minPlayers": 2,
+  "maxPlayers": 2,
+  "clientMode": "gui",
+  "clientEntrypoint": "python client.py",
+  "serverEntrypoint": "python server.py",
+  "description": "Tetris Battle: Compete head-to-head! Use Arrow keys to move/rotate pieces, Space to hard drop. Clear lines to send garbage to your opponent. Last player standing wins!",
+  "changelog": "Initial release of Tetris GUI template"
+}

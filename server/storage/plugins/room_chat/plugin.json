@@ -1,0 +1,9 @@
+{
+    "slug": "room_chat",
+    "name": "Room Chat Plugin",
+    "description": "在遊戲房間內提供群組聊天功能，讓玩家可以在等待遊戲開始時互相交流。",
+    "version": "1.0.0",
+    "author": "System",
+    "requires": [],
+    "client_entry": "chat_widget.py"
+}

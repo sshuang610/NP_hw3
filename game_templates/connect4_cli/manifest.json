@@ -1,0 +1,11 @@
+{
+  "name": "{{GAME_NAME}}",
+  "version": "0.1.0",
+  "minPlayers": 2,
+  "maxPlayers": 2,
+  "clientMode": "cli",
+  "clientEntrypoint": "python client.py",
+  "serverEntrypoint": "python server.py",
+  "description": "Connect Four: Drop discs into a 7x6 grid. First player to connect 4 discs in a row (horizontal, vertical, or diagonal) wins. Players take turns choosing a column (1-7) to drop their disc.",
+  "changelog": "Initial release of Connect4 CLI template"
+}
