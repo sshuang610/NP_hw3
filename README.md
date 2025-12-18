@@ -65,26 +65,23 @@ python -m server.developer_server --host 0.0.0.0 --port 23001 --db-host 140.113.
 python -m server.lobby_server --host 0.0.0.0 --port 23002 --db-host 140.113.17.13 --db-port 23000 --public-host 140.113.17.11
 ```
 
-### 2. 開發者上架遊戲
+### 2. Devloper
 ```powershell
 python -m developer_client.gui
 ```
 1. 輸入lobby server的host及port，輸入帳號密碼，註冊並登入
-2. 點擊 Create Game，填寫 Title / Min Players / Max Players
-3. 選擇遊戲，點擊 Upload Version，選擇 `game_templates/` 下的目錄
+2. 點擊 Create Game，上傳遊戲並填寫遊戲資訊
+3. 選擇遊戲，點擊 Upload Version可更新版本
 4. 點擊 Publish 發布遊戲
 
-### 3. 玩家下載遊戲
+### 3. Player
 ```powershell
 python -m player_client.gui
 ```
 1. 輸入lobby server的host及port，輸入帳號密碼，註冊並登入
 2. Store 分頁：選擇遊戲，點擊 Download
-
-### 4. 建立房間並遊玩
-1. Rooms 分頁：點擊 Create Room，選擇遊戲
-2. 另開一個 Player Client，註冊第二位玩家，下載遊戲後 Join Room
-3. 房主點擊 Start Game 啟動遊戲
+3. Rooms 分頁：點擊 Create Room，選擇遊戲;或加入其他房間
+4. 房主點擊 Start Game 啟動遊戲
 
 ## 遊戲模板
 
